@@ -16,7 +16,7 @@ import environ
 import django_heroku
 import dj_database_url
 env = environ.Env(
-    # set casting, default value
+    # set casting, default value!
     DEBUG=(bool, False)
 )
 # reading .env file
